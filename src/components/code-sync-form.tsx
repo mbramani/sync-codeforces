@@ -38,7 +38,7 @@ export function CodeSyncForm() {
   }
 
   return (
-    <Card>
+    <Card className="w-full md:w-1/2">
       <CardContent className="grid gap-4 py-4">
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
